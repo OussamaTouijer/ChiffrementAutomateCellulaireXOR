@@ -47,7 +47,7 @@ def decrypt(ciphertext, key):
     return bin_to_int([a ^ b for a, b in zip(ciphertext, key)])
 
 # Chiffrement et déchiffrement d'un nombre
-message =20011012071419971
+message =20011012066771419971
 key = generate_key(message)
 print("Clé privée:", ''.join(map(str, key)))
 print("Message original:", message)
